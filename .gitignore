@@ -1,0 +1,16 @@
+# Compiled binaries (built from source via `make`)
+gl_relay
+audio_relay
+libs/font_redirect.so
+
+# Build dependency sources (fetched separately)
+build-deps/
+sysroot/
+alsa-lib/
+spa-0.2/
+pipewire-0.3/
+
+# Temp/runtime files
+/tmp/
+*.o
+*.a
